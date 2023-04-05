@@ -26,8 +26,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
 ]
-
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
+TIME_ZONE = 'Asia/Kolkata'
+USE_TZ=False
 MIDDLEWARE = [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
